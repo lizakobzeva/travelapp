@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     icon: "place",
-    link: "/place",
+    link: "/place/tokio",
   },
   {
     icon: "person_outline",
