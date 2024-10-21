@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #282222;
     --foreground: #ededed;
   }
 }
@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

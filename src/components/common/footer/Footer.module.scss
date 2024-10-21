@@ -1,0 +1,30 @@
+@import "../../../assets/styles/variables.scss";
+
+.footer {
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      margin: 0 2rem;
+      span {
+        font-size: 3rem;
+        transition: color 0.4s ease;
+        color: $gray;
+      }
+
+      &:hover,
+      &.active {
+        span {
+          color: $accent;
+        }
+      }
+    }
+  }
+}
